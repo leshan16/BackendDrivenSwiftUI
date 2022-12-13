@@ -1,5 +1,5 @@
 //
-//  Core.Stepper.swift
+//  Core.StepperModel.swift
 //  BackendDrivenSwiftUI
 //
 //  Created by Апестин Алексей Дмитриевич on 13.12.2022.
@@ -10,14 +10,14 @@ import SwiftUI
 extension Core {
 
 	/// Модель отображения степера
-	struct Stepper: ViewModel {
+	struct StepperModel: ViewModel {
 
 		let id: UUID = UUID()
 		var viewModels: [ViewModel] = []
-		private var value: Int = 0
+		private(set) var value: Int = 0
 
 		func makeView() -> AnyView {
-			AnyView(StepperView(component: self))
+			AnyView(StepperView(viewModel: self))
 		}
 
 		init(value: Int?) {

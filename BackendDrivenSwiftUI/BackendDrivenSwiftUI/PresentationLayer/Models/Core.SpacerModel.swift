@@ -1,5 +1,5 @@
 //
-//  Core.Spacer.swift
+//  Core.SpacerModel.swift
 //  BackendDrivenSwiftUI
 //
 //  Created by Апестин Алексей Дмитриевич on 13.12.2022.
@@ -10,7 +10,7 @@ import SwiftUI
 extension Core {
 
 	/// Модель отображения заполнителя пространства между элементами
-	struct Spacer: ViewModel {
+	struct SpacerModel: ViewModel {
 
 		/// Минимальный размер
 		let minLength: Float?

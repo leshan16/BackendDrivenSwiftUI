@@ -1,5 +1,5 @@
 //
-//  Core.Text.swift
+//  Core.TextModel.swift
 //  BackendDrivenSwiftUI
 //
 //  Created by Апестин Алексей Дмитриевич on 13.12.2022.
@@ -10,7 +10,7 @@ import SwiftUI
 extension Core {
 
 	/// Модель отображения текста
-	struct Text: ViewModel {
+	struct TextModel: ViewModel {
 
 		/// Текст
 		let text: String
@@ -31,7 +31,7 @@ extension Core {
 		var viewModels: [ViewModel] = []
 
 		func makeView() -> AnyView {
-			AnyView(LabelComponent(component: self))
+			AnyView(TextView(viewModel: self))
 		}
 	}
 }

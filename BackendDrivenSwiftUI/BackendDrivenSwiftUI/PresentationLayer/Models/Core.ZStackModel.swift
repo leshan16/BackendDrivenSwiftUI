@@ -1,5 +1,5 @@
 //
-//  Core.ZStack.swift
+//  Core.ZStackModel.swift
 //  BackendDrivenSwiftUI
 //
 //  Created by Апестин Алексей Дмитриевич on 13.12.2022.
@@ -11,10 +11,7 @@ import SwiftUI
 extension Core {
 
 	/// Модель отображения z стека
-	struct ZStack: ViewModel {
-
-		/// Интервал
-		let spacing: CGFloat?
+	struct ZStackModel: ViewModel {
 
 		/// Отступы
 		var paddings: EdgeInsets
@@ -23,7 +20,7 @@ extension Core {
 		var viewModels: [ViewModel]
 
 		func makeView() -> AnyView {
-			AnyView(VStackView(viewModel: self))
+			AnyView(ZStackView(viewModel: self))
 		}
 	}
 }

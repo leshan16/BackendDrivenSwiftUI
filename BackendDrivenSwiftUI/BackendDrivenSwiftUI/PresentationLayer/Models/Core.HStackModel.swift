@@ -1,5 +1,5 @@
 //
-//  Core.HStack.swift
+//  Core.HStackModel.swift
 //  BackendDrivenSwiftUI
 //
 //  Created by Апестин Алексей Дмитриевич on 13.12.2022.
@@ -11,7 +11,7 @@ import SwiftUI
 extension Core {
 
 	/// Модель отображения горизонтального стека
-	struct HStack: ViewModel {
+	struct HStackModel: ViewModel {
 
 		/// Интервал
 		let spacing: CGFloat?
@@ -23,7 +23,7 @@ extension Core {
 		var viewModels: [ViewModel]
 
 		func makeView() -> AnyView {
-			AnyView(VStackView(viewModel: self))
+			AnyView(HStackView(viewModel: self))
 		}
 	}
 }

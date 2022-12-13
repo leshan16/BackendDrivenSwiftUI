@@ -1,5 +1,5 @@
 //
-//  Core.Image.swift
+//  Core.ImageModel.swift
 //  BackendDrivenSwiftUI
 //
 //  Created by Апестин Алексей Дмитриевич on 13.12.2022.
@@ -10,7 +10,7 @@ import SwiftUI
 extension Core {
 
 	/// Модель отображения картинки
-	struct Image: ViewModel {
+	struct ImageModel: ViewModel {
 
 		/// Ссылка на скачивание картинки
 		let url: URL

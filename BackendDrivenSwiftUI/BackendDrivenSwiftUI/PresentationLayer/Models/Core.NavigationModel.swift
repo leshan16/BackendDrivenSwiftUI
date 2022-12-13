@@ -1,5 +1,5 @@
 //
-//  Core.Navigation.swift
+//  Core.NavigationModel.swift
 //  BackendDrivenSwiftUI
 //
 //  Created by Апестин Алексей Дмитриевич on 13.12.2022.
@@ -10,7 +10,7 @@ import SwiftUI
 extension Core {
 
 	/// Модель отображения панели навигации
-	struct Navigation: ViewModel {
+	struct NavigationModel: ViewModel {
 
 		/// Заголовок
 		let title: String
@@ -25,7 +25,7 @@ extension Core {
 		var viewModels: [ViewModel]
 
 		func makeView() -> AnyView {
-			AnyView(NavigationComponent(component: self))
+			AnyView(NavigationControllerView(viewModel: self))
 		}
 	}
 }

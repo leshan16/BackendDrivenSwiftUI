@@ -1,5 +1,5 @@
 //
-//  Core.VStack.swift
+//  Core.VStackModel.swift
 //  BackendDrivenSwiftUI
 //
 //  Created by Апестин Алексей Дмитриевич on 13.12.2022.
@@ -11,7 +11,7 @@ import SwiftUI
 extension Core {
 
 	/// Модель отображения вертикального стека
-	struct VStack: ViewModel {
+	struct VStackModel: ViewModel {
 
 		/// Интервал
 		let spacing: CGFloat?
