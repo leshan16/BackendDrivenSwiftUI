@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C7AC286A2948977E00923FA5 /* BackendDrivenSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC28692948977E00923FA5 /* BackendDrivenSwiftUIApp.swift */; };
-		C7AC286C2948977E00923FA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC286B2948977E00923FA5 /* ContentView.swift */; };
 		C7AC286E2948978000923FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AC286D2948978000923FA5 /* Assets.xcassets */; };
 		C7AC28712948978000923FA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AC28702948978000923FA5 /* Preview Assets.xcassets */; };
 		C7AC287B2948A47500923FA5 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC287A2948A47500923FA5 /* DatabaseService.swift */; };
@@ -38,12 +37,18 @@
 		C7AC28AE2948DA1400923FA5 /* Core.VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC28AD2948DA1400923FA5 /* Core.VStackView.swift */; };
 		C7AC28B02948DABB00923FA5 /* Core.HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC28AF2948DABB00923FA5 /* Core.HStackView.swift */; };
 		C7AC28B22948DAC400923FA5 /* Core.ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC28B12948DAC400923FA5 /* Core.ZStackView.swift */; };
+		C7AC28B52948E78F00923FA5 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC28B42948E78F00923FA5 /* Font+Extension.swift */; };
+		C7AC28B72948E7C700923FA5 /* Font.Weight+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC28B62948E7C700923FA5 /* Font.Weight+Extension.swift */; };
+		C7AC28B92948E82B00923FA5 /* TextAlignment+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC28B82948E82B00923FA5 /* TextAlignment+Extension.swift */; };
+		C7AC28BB2948E86B00923FA5 /* Alignment+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC28BA2948E86B00923FA5 /* Alignment+Extension.swift */; };
+		C7AC28BD2948E92A00923FA5 /* StartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC28BC2948E92A00923FA5 /* StartScreenView.swift */; };
+		C7AC28BF2948E9BB00923FA5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC28BE2948E9BB00923FA5 /* MainView.swift */; };
+		C7AC28C12948EA0000923FA5 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC28C02948EA0000923FA5 /* MainPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C7AC28662948977E00923FA5 /* BackendDrivenSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackendDrivenSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AC28692948977E00923FA5 /* BackendDrivenSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendDrivenSwiftUIApp.swift; sourceTree = "<group>"; };
-		C7AC286B2948977E00923FA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7AC286D2948978000923FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7AC28702948978000923FA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C7AC287A2948A47500923FA5 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
@@ -73,6 +78,13 @@
 		C7AC28AD2948DA1400923FA5 /* Core.VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.VStackView.swift; sourceTree = "<group>"; };
 		C7AC28AF2948DABB00923FA5 /* Core.HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.HStackView.swift; sourceTree = "<group>"; };
 		C7AC28B12948DAC400923FA5 /* Core.ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.ZStackView.swift; sourceTree = "<group>"; };
+		C7AC28B42948E78F00923FA5 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		C7AC28B62948E7C700923FA5 /* Font.Weight+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font.Weight+Extension.swift"; sourceTree = "<group>"; };
+		C7AC28B82948E82B00923FA5 /* TextAlignment+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextAlignment+Extension.swift"; sourceTree = "<group>"; };
+		C7AC28BA2948E86B00923FA5 /* Alignment+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alignment+Extension.swift"; sourceTree = "<group>"; };
+		C7AC28BC2948E92A00923FA5 /* StartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenView.swift; sourceTree = "<group>"; };
+		C7AC28BE2948E9BB00923FA5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C7AC28C02948EA0000923FA5 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +146,12 @@
 		C7AC28792948A42A00923FA5 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				C7AC28B32948E77600923FA5 /* Extensions */,
 				C7AC28992948CD7F00923FA5 /* Models */,
 				C7AC289A2948CD9200923FA5 /* Views */,
-				C7AC28A52948D6CD00923FA5 /* Color+Extension.swift */,
+				C7AC28BC2948E92A00923FA5 /* StartScreenView.swift */,
+				C7AC28BE2948E9BB00923FA5 /* MainView.swift */,
+				C7AC28C02948EA0000923FA5 /* MainPresenter.swift */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -146,7 +161,6 @@
 			children = (
 				C7AC287F2948BEF500923FA5 /* Core.swift */,
 				C7AC28692948977E00923FA5 /* BackendDrivenSwiftUIApp.swift */,
-				C7AC286B2948977E00923FA5 /* ContentView.swift */,
 			);
 			path = ApplicationLayer;
 			sourceTree = "<group>";
@@ -186,6 +200,18 @@
 				C7AC28B12948DAC400923FA5 /* Core.ZStackView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C7AC28B32948E77600923FA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C7AC28A52948D6CD00923FA5 /* Color+Extension.swift */,
+				C7AC28B42948E78F00923FA5 /* Font+Extension.swift */,
+				C7AC28B62948E7C700923FA5 /* Font.Weight+Extension.swift */,
+				C7AC28B82948E82B00923FA5 /* TextAlignment+Extension.swift */,
+				C7AC28BA2948E86B00923FA5 /* Alignment+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,13 +285,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7AC28A02948D51900923FA5 /* Core.ImageView.swift in Sources */,
+				C7AC28BD2948E92A00923FA5 /* StartScreenView.swift in Sources */,
 				C7AC28A22948D5C600923FA5 /* Core.ListView.swift in Sources */,
 				C7AC287B2948A47500923FA5 /* DatabaseService.swift in Sources */,
 				C7AC289C2948CE9C00923FA5 /* Core.TextView.swift in Sources */,
+				C7AC28C12948EA0000923FA5 /* MainPresenter.swift in Sources */,
+				C7AC28B92948E82B00923FA5 /* TextAlignment+Extension.swift in Sources */,
 				C7AC289E2948D09600923FA5 /* Core.NavigationControllerView.swift in Sources */,
 				C7AC28962948CCF000923FA5 /* Core.HStackModel.swift in Sources */,
 				C7AC28B22948DAC400923FA5 /* Core.ZStackView.swift in Sources */,
+				C7AC28BB2948E86B00923FA5 /* Alignment+Extension.swift in Sources */,
 				C7AC288C2948C9CF00923FA5 /* Core.ListModel.swift in Sources */,
+				C7AC28BF2948E9BB00923FA5 /* MainView.swift in Sources */,
 				C7AC28822948C08D00923FA5 /* Core.ButtonModel.swift in Sources */,
 				C7AC28A82948D75E00923FA5 /* Core.SpacerView.swift in Sources */,
 				C7AC287D2948A48500923FA5 /* Component.swift in Sources */,
@@ -275,7 +306,6 @@
 				C7AC28A42948D63F00923FA5 /* Core.TextFieldView.swift in Sources */,
 				C7AC28AA2948D7F700923FA5 /* Core.ButtonView.swift in Sources */,
 				C7AC28942948CC3B00923FA5 /* Core.VStackModel.swift in Sources */,
-				C7AC286C2948977E00923FA5 /* ContentView.swift in Sources */,
 				C7AC28802948BEF500923FA5 /* Core.swift in Sources */,
 				C7AC28AE2948DA1400923FA5 /* Core.VStackView.swift in Sources */,
 				C7AC28902948CA9E00923FA5 /* Core.TextFieldModel.swift in Sources */,
@@ -283,7 +313,9 @@
 				C7AC286A2948977E00923FA5 /* BackendDrivenSwiftUIApp.swift in Sources */,
 				C7AC288E2948CA1200923FA5 /* Core.SpacerModel.swift in Sources */,
 				C7AC28AC2948D88400923FA5 /* Core.StepperView.swift in Sources */,
+				C7AC28B72948E7C700923FA5 /* Font.Weight+Extension.swift in Sources */,
 				C7AC28B02948DABB00923FA5 /* Core.HStackView.swift in Sources */,
+				C7AC28B52948E78F00923FA5 /* Font+Extension.swift in Sources */,
 				C7AC28842948C0B100923FA5 /* ViewModel.swift in Sources */,
 				C7AC28862948C20E00923FA5 /* Core.StepperModel.swift in Sources */,
 				C7AC28A62948D6CD00923FA5 /* Color+Extension.swift in Sources */,
