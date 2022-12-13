@@ -148,7 +148,7 @@ extension Component.Payload {
 		var alignment: Alignment?
 
 		/// Размер
-		var size: Frame?
+		var size: Size?
 	}
 
 	/// Дополнительные поля для компонента ввода текста
@@ -170,10 +170,10 @@ extension Component.Payload {
 		/// Заголовок
 		let title: String
 
-		/// Название иконки для левого айтема
+		/// Название левой иконки
 		let leftIconName: String?
 
-		/// Название иконки для правого айтема
+		/// Название правой иконки
 		let rightIconName: String?
 	}
 
@@ -204,13 +204,13 @@ extension Component.Payload {
 	}
 
 	/// Размер
-	struct Frame: Decodable {
+	struct Size: Decodable {
 
 		/// Ширина
-		let width: Float
+		let width: CGFloat
 
 		/// Высота
-		let height: Float
+		let height: CGFloat
 	}
 }
 
